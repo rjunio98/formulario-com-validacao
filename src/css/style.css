@@ -1,0 +1,101 @@
+body {
+    font-family: 'Robot', sans-serif;
+    background: linear-gradient(180deg, rgba(211,104,160,1) 0%, rgba(163,117,192,1) 50%, rgba(100,129,229,1) 100%);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 50px;
+}
+
+.container .conteudo .titulo {
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 23px;
+    color: #ffffff;
+    width: 287px;
+    padding-bottom: 18px;
+    text-transform: uppercase;
+}
+
+.container .conteudo .paragrafo-conteudo {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #ffffff;
+    width: 300px;
+    height: 54px;
+}
+
+.formulario {
+    width: 340px;
+    height: 378px;
+    background-color: #ffffff;
+    padding: 20px 21px;
+}
+
+.formulario #nome, #email, #telefone, #mensagem {
+    margin-bottom: 10px;
+}
+
+.formulario input {
+    width: 298px;
+    height: 35px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    padding: 8px 0 8px 11px;
+}
+
+.formulario textarea {
+    max-width: 298px;
+    max-height: 100px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+textarea::placeholder {
+    padding: 8px 0 10px 9.90px;
+    
+}
+
+input::placeholder, 
+textarea::placeholder{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #a8a8a8;
+}
+
+.formulario .paragrafo-form {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    margin-top: 7px;
+}
+
+.formulario button {
+    background-color: #3ccc87;
+    border-radius: 5px;
+    width: 298px;
+    height: 41px;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 12px 0 11px 0;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 32px;
+    border: none;
+}
+
+.campo-preenchido{
+	border: 1px solid green;
+}
+

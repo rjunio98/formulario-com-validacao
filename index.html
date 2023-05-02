@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Formulário com validação</title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="container">
+        <div class="conteudo">
+            <h1 class="titulo">Ficou com duvida? Nos mande uma mensagem</h1>
+            <p class="paragrafo-conteudo">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+        </div>
+
+        <div class="formulario">
+            <form action="meuformulario">
+                <div id="nome">
+                    <input type="text" name="nome" placeholder="Nome completo *">
+                </div>
+
+                <div id="email">
+                    <input type="email" name="email" placeholder="Email *">
+                </div>
+
+                <div id="telefone">
+                    <input type="text" name="telefone" placeholder="Telefone*">
+                </div>
+
+                <div id="mensagem">
+                    <textarea name="mensagem" cols="40" rows="20" placeholder="Mensagem *"></textarea>
+                </div>
+
+                <p class="paragrafo-form">*campos obrigatórios</p>
+                <button>Enviar</button>
+            </form>
+
+        </div>
+
+    </main>
+
+    <script src="src/js/form.js"></script>
+</body>
+</html>
