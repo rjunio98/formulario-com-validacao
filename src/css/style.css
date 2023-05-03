@@ -46,11 +46,7 @@ body {
     height: 35px;
     border: 1px solid #000000;
     border-radius: 5px;
-    padding-left: 5px;
-}
-
-input::placeholder {
-    padding: 8px 0 8px 11px;
+    padding: 7px 0 0 8px;
 }
 
 .formulario textarea {
@@ -59,11 +55,7 @@ input::placeholder {
     background-color: #ffffff;
     border: 1px solid #000000;
     border-radius: 5px;
-}
-
-textarea::placeholder {
-    padding: 8px 0 10px 9.90px;
-    
+    padding: 7px 0 0 8px;
 }
 
 input::placeholder, 
