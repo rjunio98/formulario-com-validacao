@@ -38,7 +38,7 @@ body {
 }
 
 .formulario #nome, #email, #telefone, #mensagem {
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .formulario input {
@@ -71,6 +71,14 @@ textarea::placeholder{
     font-size: 15px;
     line-height: 18px;
     color: #a8a8a8;
+}
+
+.paragrafo-disappear {
+    font-size: 8px;
+    color: #f52e2e;
+    line-height: 9px;
+    font-weight: 400;
+    display: none;
 }
 
 .formulario .paragrafo-form {
