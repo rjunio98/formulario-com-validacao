@@ -1,57 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Formulário com validação</title>
+  <title>Formulário com validação</title>
 
-    <link rel="stylesheet" href="src/css/reset.css">
-    <link rel="stylesheet" href="src/css/style.css">
-    <link rel="stylesheet" href="src/css/responsive.css">
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/responsive.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <main class="container">
-        <div class="conteudo">
-            <h1 class="titulo">Ficou com duvida? Nos mande uma mensagem</h1>
-            <p class="paragrafo-conteudo">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+  <main class="container">
+    <div class="conteudo">
+      <h1 class="titulo">Ficou com duvida? Nos mande uma mensagem</h1>
+      <p class="paragrafo-conteudo">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em
+        contato em menos de 24h.</p>
+    </div>
+
+    <div class="formulario">
+      <form>
+        <div id="nome">
+          <input class="input" type="text" name="nome" placeholder="Nome completo *">
+          <p class="paragrafo-disappear">campo obrigatório</p>
         </div>
 
-        <div class="formulario">
-            <form action="meuformulario">
-                <div id="nome">
-                    <input type="text" name="nome" placeholder="Nome completo *">
-                    <p class="paragrafo-disappear">campo obrigatório</p>
-                </div>
-
-                <div id="email">
-                    <input type="email" name="email" placeholder="Email *">
-                    <p class="paragrafo-disappear">campo obrigatório</p>
-                </div>
-
-                <div id="telefone">
-                    <input type="tel" name="telefone" placeholder="Telefone*" pattern="[0-9]{10,11}" maxlength="11">
-                    <p class="paragrafo-disappear">campo obrigatório</p>
-                </div>
-
-                <div id="mensagem">
-                    <textarea name="mensagem" cols="40" rows="20" placeholder="Mensagem *"></textarea>
-                    <p class="paragrafo-disappear">campo obrigatório</p>
-                </div>
-
-                <p class="paragrafo-form">*campos obrigatórios</p>
-                <button>Enviar</button>
-            </form>
-
+        <div id="email">
+          <input class="input" type="email" name="email" placeholder="Email *">
+          <p class="paragrafo-disappear">campo obrigatório</p>
         </div>
 
-    </main>
+        <div id="telefone">
+          <input class="input" type="tel" name="telefone" placeholder="Telefone*" pattern="[0-9]{10,11}" maxlength="11">
+          <p class="paragrafo-disappear">campo obrigatório</p>
+        </div>
 
-    <script src="src/js/form.js"></script>
+        <div id="mensagem">
+          <textarea class="input" name="mensagem" cols="40" rows="20" placeholder="Mensagem *"></textarea>
+          <p class="paragrafo-disappear">campo obrigatório</p>
+        </div>
+
+        <p class="paragrafo-form">*campos obrigatórios</p>
+        <button type="submit">Enviar</button>
+      </form>
+
+    </div>
+
+  </main>
+
+  <script src="src/js/form.js"></script>
 </body>
 </html>
