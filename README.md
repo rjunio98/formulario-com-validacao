@@ -4,7 +4,7 @@ A validação foi feita com javascript puro, ao clicar para enviar o formulário
 ---
 
 ## Funcionalidade da validação
-
+[<img src="./design/form.gif" alt="gif do da validação">]
 ---
 
 ## Modo desktop
