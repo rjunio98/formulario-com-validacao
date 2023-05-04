@@ -19,15 +19,9 @@ A validação foi feita com javascript puro, ao clicar para enviar o formulário
 
 ## Como utilizar
 
-1 - Clone pro o projeto
+Clone pro o projeto
 ```
 git clone https://github.com/rjunio98/formulario-com-validacao.git
-
-```
-
-2 - Acesse a pasta do projeto
-```
-cd formulario-com-validacao
 
 ```
 ---
