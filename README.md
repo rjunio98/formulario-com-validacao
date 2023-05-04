@@ -8,12 +8,12 @@ A validação foi feita com javascript puro, ao clicar para enviar o formulário
 ---
 
 ## Modo desktop
-[<img src="./design/desktop.png">]
+[<img src="./design/desktop.png" alt="tela desktop">]
 
 ---
 
 ## Modo mobile
-[<img src="./design/mobile.png">]
+[<img src="./design/mobile.png" alt="tela mobile">]
 
 
 ## Tecnologias utilizadas
