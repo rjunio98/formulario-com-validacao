@@ -15,6 +15,22 @@ A validação foi feita com javascript puro, ao clicar para enviar o formulário
 ## Modo mobile
 [<img src="./design/mobile.png" alt="tela mobile">]
 
+---
+
+## Como utilizar
+
+1 - Clone pro o projeto
+```
+git clone https://github.com/rjunio98/formulario-com-validacao.git
+
+```
+
+2 - Acesse a pasta do projeto
+```
+cd formulario-com-validacao
+
+```
+---
 
 ## Tecnologias utilizadas
 - HTML
@@ -22,4 +38,5 @@ A validação foi feita com javascript puro, ao clicar para enviar o formulário
 - JavaScript
 - Git
 - VSCode
+
 
