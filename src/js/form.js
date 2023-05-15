@@ -41,3 +41,7 @@ form.onsubmit = e => {
     }
   })
 }
+
+setTimeout(() => {
+  alert('Favor preencher os campos corretamente')
+}, 60000);
