@@ -1,7 +1,7 @@
 body {
     font-family: 'Robot', sans-serif;
     background: linear-gradient(180deg, rgba(211, 104, 160, 1) 0%, rgba(163, 117, 192, 1) 50%, rgba(100, 129, 229, 1) 100%);
-  }
+}
   
   .container {
     display: flex;
@@ -20,7 +20,7 @@ body {
     padding-bottom: 18px;
     text-transform: uppercase;
   }
-  
+
   .container .conteudo .paragrafo-conteudo {
     font-weight: 400;
     font-size: 15px;
