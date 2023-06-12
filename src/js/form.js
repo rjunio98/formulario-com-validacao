@@ -1,3 +1,8 @@
+setTimeout(() => {
+  let nomeInformado = prompt('Qual o seu nome?');
+  alert('Olá ' + nomeInformado + '. Seja bem-vindo ao nosso site.');
+}, 800)
+
 const inputETextArea = document.querySelectorAll('input, textarea')
 const button = document.querySelector('button')
 const form = document.querySelector('form')
@@ -53,6 +58,4 @@ form.onsubmit = e => {
   })
 }
 
-setTimeout(() => {
-  alert('Favor preencher os campos corretamente')
-}, 60000);
+
