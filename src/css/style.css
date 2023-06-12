@@ -1,105 +1,106 @@
 body {
-    font-family: 'Robot', sans-serif;
-    background: linear-gradient(180deg, rgba(211, 104, 160, 1) 0%, rgba(163, 117, 192, 1) 50%, rgba(100, 129, 229, 1) 100%);
+  font-family: 'Robot', sans-serif;
+  background: linear-gradient(90deg, rgb(16, 37, 105) 0%, rgba(8,175,218,1) 50%, rgb(10, 67, 189) 100%);
+  /*background: linear-gradient(180deg, rgba(211, 104, 160, 1) 0%, rgba(163, 117, 192, 1) 50%, rgba(100, 129, 229, 1) 100%);*/
 }
   
   .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    gap: 50px;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 50px;
+}
   
   .container .conteudo .titulo {
-    font-size: 20px;
-    font-weight: 900;
-    line-height: 23px;
-    color: #ffffff;
-    width: 287px;
-    padding-bottom: 18px;
-    text-transform: uppercase;
-  }
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 23px;
+  color: #ffffff;
+  width: 287px;
+  padding-bottom: 18px;
+  text-transform: uppercase;
+}
 
   .container .conteudo .paragrafo-conteudo {
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
-    color: #ffffff;
-    width: 300px;
-    height: 54px;
-  }
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+  width: 300px;
+  height: 54px;
+}
   
   .formulario {
-    width: 340px;
-    background-color: #ffffff;
-    padding: 20px 21px;
-  }
+  width: 340px;
+  background-color: #ffffff;
+  padding: 20px 21px;
+}
   
   .formulario #nome,
   #email,
   #telefone,
   #mensagem {
-    margin-top: 10px;
-  }
+  margin-top: 10px;
+}
   
   .formulario input {
-    width: 298px;
-    border-radius: 5px;
-    padding: 10px;
-    border-width: 1px;
-  }
+  width: 298px;
+  border-radius: 5px;
+  padding: 10px;
+  border-width: 1px;
+}
   
   .formulario textarea {
-    max-width: 298px;
-    max-height: 100px;
-    background-color: #ffffff;
-    border-radius: 5px;
-    padding: 10px;
-  }
+  max-width: 298px;
+  max-height: 100px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+}
   
   input::placeholder,
   textarea::placeholder {
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 18px;
-    color: #a8a8a8;
-  }
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #a8a8a8;
+}
   
   .paragrafo-disappear {
-    font-size: 8px;
-    color: #f52e2e;
-    line-height: 9px;
-    font-weight: 400;
-  }
+  font-size: 8px;
+  color: #f52e2e;
+  line-height: 9px;
+  font-weight: 400;
+}
   
   .formulario .paragrafo-form {
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 18px;
-    color: #000000;
-    margin-top: 7px;
-  }
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+  margin-top: 7px;
+}
   
   .formulario button {
-    background-color: #3ccc87;
-    border-radius: 5px;
-    width: 298px;
-    height: 41px;
-    color: #ffffff;
-    font-weight: 700;
-    padding: 12px 0 11px 0;
-    cursor: pointer;
-    font-size: 15px;
-    margin-top: 32px;
-    border: none;
-  }
+  background-color: #3ccc87;
+  border-radius: 5px;
+  width: 298px;
+  height: 41px;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 12px 0 11px 0;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 32px;
+  border: none;
+}
   
   .campo-preenchido {
-    border: 2px solid #09d309;
-  }
+  border: 2px solid #09d309;
+}
   
   form p {
-    display: none;
-  }
+  display: none;
+}
 
