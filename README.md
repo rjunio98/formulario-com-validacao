@@ -45,6 +45,7 @@ cd formulario-com-validacao
 - CSS
 - JavaScript
 - Git
+- Figma
 - VSCode
 
 
